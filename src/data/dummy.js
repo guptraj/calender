@@ -21,7 +21,6 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-import product8 from './product8.jpg';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -211,35 +210,34 @@ const areaChartData = [
 
 export const sidebarLinks2 = [
   {
-    imgURL: "/assets/home.svg",
-    route: "/teachers",
-    label: "Home",
+    imgURL: '/assets/home.svg',
+    route: '/teachers',
+    label: 'Home',
   },
   {
-    imgURL: "/assets/search.svg",
-    route: "/search2",
-    label: "Search",
+    imgURL: '/assets/search.svg',
+    route: '/search2',
+    label: 'Search',
   },
   {
-    imgURL: "/assets/heart.svg",
-    route: "/activity2",
-    label: "Activity",
+    imgURL: '/assets/heart.svg',
+    route: '/activity2',
+    label: 'Activity',
   },
   {
-    imgURL: "/assets/create.svg",
-    route: "/create-thread2",
-    label: "Post Thread",
-  },
-  
-  {
-    imgURL: "/assets/user.svg",
-    route: "/profile",
-    label: "Profile",
+    imgURL: '/assets/create.svg',
+    route: '/create-thread2',
+    label: 'Post Thread',
   },
   {
-    imgURL: "/assets/calendar.svg",
-    route: "/calendar",
-    label: "Calendar",
+    imgURL: '/assets/user.svg',
+    route: '/profile',
+    label: 'Profile',
+  },
+  {
+    imgURL: '/assets/calendar.svg',
+    route: '/calendar',
+    label: 'Calendar',
   },
 ];
 
